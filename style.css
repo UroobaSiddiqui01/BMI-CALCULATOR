@@ -1,0 +1,70 @@
+input {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 1px solid black;
+}
+label {
+    font-weight: 800;
+    color: black;
+    font-size: 18px;
+}
+h1 {
+    border-radius: 12px;
+    font-size: 2.3rem;
+    color: rgb(5, 5, 6);
+    padding-left: 15px;
+    padding-top: 25px;
+}
+p {
+    padding: 2rem;
+    font-size: 16px;
+    color: rgb(0, 0, 0); /* Black for visibility */
+}
+.maindiv {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(mqdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 80vh;
+    width: 35vw;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border: 2px solid #fff;
+    z-index: 1; /* Ensure it's in the foreground */
+}
+
+button {
+    
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #333; /* Dark button for contrast */
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for results */
+    color: #000; /* Dark text for visibility */
+}
+
